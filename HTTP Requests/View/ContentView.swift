@@ -133,7 +133,7 @@ struct ContentView: View {
                         textFieldFocused = false
                         self.networkController.performRequest(type: "DELETE", body: nil, productID: $deleteProductID.wrappedValue)
                     } label: {
-                        Text("DELETE")
+                        Text("OPTIONS")
                             .frame(maxWidth: .infinity)
                     }
                     .foregroundColor(.white)
