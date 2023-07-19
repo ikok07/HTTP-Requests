@@ -140,7 +140,7 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .frame(maxWidth: .infinity)
                     .buttonStyle(.borderedProminent)
-                    .tint(.red)
+                    .tint(.blue)
                     .padding(.top, 20)
                 }
             }
